@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Effects Pedal Details</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#007BFF",
+              "background-light": "#F5F5F5",
+              "background-dark": "#1E1E1E",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+            font-size: 24px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body>
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden font-display">
+<!-- Top App Bar -->
+<div class="sticky top-0 z-10 flex items-center bg-background-light/80 dark:bg-background-dark/80 p-4 backdrop-blur-sm justify-between">
+<a href="pedal-list.html" class="text-white flex size-12 shrink-0 items-center justify-start">
+<span class="material-symbols-outlined text-stone-900 dark:text-stone-100">arrow_back_ios_new</span>
+</a>
+<h2 class="text-stone-900 dark:text-stone-100 text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Distortion Master</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-stone-900 dark:text-stone-100 gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined">bookmark_border</span>
+</button>
+</div>
+</div>
+<!-- Header Image / Gallery -->
+<div class="@container px-4">
+<div class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-stone-200 dark:bg-stone-800 rounded-xl min-h-80" data-alt="A sleek black and orange distortion guitar pedal on a dark background" style='background-image: linear-gradient(0deg, rgba(30, 30, 30, 0.4) 0%, rgba(30, 30, 30, 0) 25%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDH6bTwaYu9thS1wkn5_i0amSVNssz-Mi3_8I5b54HJEzkv8JLYJF6K8lyovqq2I9kJecPlMuIgn_L4l11SGakHFUwNYD0FB0VXfNdb900wEFFAI-s_WeTJjc8oAMK0RGUEVBKAf5LbvL8UfnqTpP1fIc_QwVO2N9nMGmPU5ximWqb-ytD9pRcblFbY0yI7XM8FQ50GRawHGECYp9ySdpCIba7gHxGf7YP8BhCB7ulxw39Bc12WCt3HF5hdK4MOvhThjCUpgBh9J6k");'>
+<div class="flex justify-center gap-2 p-5">
+<div class="h-2 w-6 rounded-full bg-primary"></div>
+<div class="size-2 rounded-full bg-stone-100/50"></div>
+<div class="size-2 rounded-full bg-stone-100/50"></div>
+<div class="size-2 rounded-full bg-stone-100/50"></div>
+</div>
+</div>
+</div>
+<!-- Primary Info Block -->
+<div class="px-4 pt-6 pb-2">
+<p class="text-stone-500 dark:text-stone-400 text-sm font-semibold uppercase tracking-wider">Pedal Co.</p>
+<h1 class="text-stone-900 dark:text-stone-50 text-[32px] font-bold leading-tight tracking-tight">Distortion Master</h1>
+<p class="text-primary text-base font-bold leading-normal pt-1">Analog Distortion</p>
+</div>
+<!-- Tab Bar -->
+<div class="px-4 pt-4 pb-3 sticky top-[72px] bg-background-light dark:bg-background-dark z-10">
+<div class="flex border-b border-stone-300 dark:border-stone-700 gap-8">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary text-stone-900 dark:text-stone-50 pb-[13px] pt-2 flex-1" href="#">
+<p class="text-sm font-bold leading-normal">Description</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-stone-500 dark:text-stone-400 pb-[13px] pt-2 flex-1" href="#">
+<p class="text-sm font-bold leading-normal">Specs</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-stone-500 dark:text-stone-400 pb-[13px] pt-2 flex-1" href="#">
+<p class="text-sm font-bold leading-normal">Media</p>
+</a>
+</div>
+</div>
+<!-- Description Content -->
+<div class="px-4 py-4">
+<p class="text-stone-700 dark:text-stone-300 text-base font-normal leading-relaxed">The Distortion Master is a legendary analog distortion pedal, renowned for its rich, tube-like saturation and dynamic response. From classic rock crunch to searing high-gain leads, this pedal delivers a versatile range of tones that have shaped countless records. Its simple three-knob layout—Volume, Tone, and Gain—provides an intuitive yet powerful way to sculpt your sound. Built with premium components in a rugged enclosure, the Distortion Master is designed for the road and the studio alike.</p>
+</div>
+<!-- Specification List -->
+<div class="px-4 py-4">
+<h3 class="text-stone-900 dark:text-stone-50 text-xl font-bold mb-4">Controls</h3>
+<ul class="space-y-3">
+<li class="flex justify-between items-center text-base">
+<span class="text-stone-500 dark:text-stone-400">GAIN:</span>
+<span class="text-stone-800 dark:text-stone-200 font-medium text-right">Adjusts the amount of distortion</span>
+</li>
+<li class="flex justify-between items-center text-base">
+<span class="text-stone-500 dark:text-stone-400">TONE:</span>
+<span class="text-stone-800 dark:text-stone-200 font-medium text-right">Shapes the EQ of the effect</span>
+</li>
+<li class="flex justify-between items-center text-base">
+<span class="text-stone-500 dark:text-stone-400">LEVEL:</span>
+<span class="text-stone-800 dark:text-stone-200 font-medium text-right">Controls the overall output volume</span>
+</li>
+</ul>
+</div>
+<!-- Embedded Media Player (Placeholder) -->
+<div class="px-4 py-4">
+<h3 class="text-stone-900 dark:text-stone-50 text-xl font-bold mb-4">Audio Demos</h3>
+<div class="flex items-center gap-4 bg-stone-200 dark:bg-stone-800 p-4 rounded-xl">
+<button class="flex items-center justify-center size-12 rounded-full bg-primary text-white">
+<span class="material-symbols-outlined text-3xl">play_arrow</span>
+</button>
+<div class="flex-1">
+<p class="text-stone-800 dark:text-stone-200 font-bold">Classic Rock Riff</p>
+<p class="text-stone-600 dark:text-stone-400 text-sm">0:42</p>
+</div>
+<div class="w-24 h-1 bg-stone-300 dark:bg-stone-600 rounded-full overflow-hidden">
+<div class="w-1/2 h-full bg-primary"></div>
+</div>
+</div>
+</div>
+<!-- Related Pedals -->
+<div class="px-4 pt-4 pb-6">
+<h3 class="text-stone-900 dark:text-stone-50 text-xl font-bold mb-4">You Might Also Like</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col">
+<div class="aspect-square bg-stone-200 dark:bg-stone-800 rounded-lg bg-cover bg-center" data-alt="A bright yellow overdrive pedal." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBmouUxiw093JiyryRu5NW-YY-0NtYGacdA100GXT5eIp0H-zEDUbw12GFPoiQz06LVWyfNJ1NOPLFJVxEURcQ5nC-WFbU7mzM-RFhAGi0EYjQQ4n-TjqOM634bFTWCXiZTiWah9hUtTSt6kJlITYcCxwsD-J8QHj_5-D33psDe3q8JQwrgF4r66CVp2fsHCFzXGJObun_FlyGoOFAJEUN2c57l6iAZ9QlngZpP3ZRE2qrRBCDC-iRBSFJLSHWvjFxgcEOn-ZYW8Qk');"></div>
+<p class="text-stone-800 dark:text-stone-200 font-bold mt-2">Overdrive Pro</p>
+<p class="text-stone-600 dark:text-stone-400 text-sm">Fuzz Pedals</p>
+</div>
+<div class="flex flex-col">
+<div class="aspect-square bg-stone-200 dark:bg-stone-800 rounded-lg bg-cover bg-center" data-alt="A vintage-style fuzz pedal with large knobs." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAAccZNAhTsntSgdTylTuvL49t1MADpLmNSDWh7fiEcuDC0zLQRHibWpGdAIwpoFOOK8U4H3nF-27yWYBD5YMWsGh4l7XJC8COsQcnqc1cFLWwtv-NME-HRScWxAVLAKNNbKlE3pctXfdbR2dStenuLCHCUeee9KkC1x_po6ITHuJST4KJUpAwL0qD-DlO-aIHhPtTERlW24mAlwd-Du-fLC892jjxXJlBlxUhQDrGZBPD_2d5o1u-GmxSBflc202f9WRRqzDQWESQ');"></div>
+<p class="text-stone-800 dark:text-stone-200 font-bold mt-2">Vintage Fuzz</p>
+<p class="text-stone-600 dark:text-stone-400 text-sm">Fuzz Pedals</p>
+</div>
+</div>
+</div>
+<!-- CTA Button -->
+<div class="sticky bottom-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm p-4 mt-auto">
+<button class="w-full h-14 bg-primary text-white rounded-xl text-lg font-bold flex items-center justify-center gap-2">
+                Find a Dealer
+                <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</body></html>
