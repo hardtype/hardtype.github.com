@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Effects Pedals Directory</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#007BFF",
+            "background-light": "#F5F5F5",
+            "background-dark": "#1E1E1E",
+            "card-light": "#FFFFFF",
+            "card-dark": "#2A2A2A",
+            "text-light-primary": "#333333",
+            "text-dark-primary": "#EAEAEA",
+            "text-light-secondary": "#6b7280",
+            "text-dark-secondary": "#9da6b9",
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-10 flex h-16 shrink-0 items-center justify-between border-b border-white/10 bg-background-light/80 px-4 dark:bg-background-dark/80 backdrop-blur-sm">
+<a href="categories.html" class="flex h-12 w-12 items-center justify-start">
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-text-light-primary dark:text-text-dark-primary hover:bg-black/5 dark:hover:bg-white/5">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+</a>
+<h1 class="flex-1 text-center text-lg font-bold tracking-tight text-text-light-primary dark:text-text-dark-primary">Delay Pedals</h1>
+<div class="flex h-12 w-12 items-center justify-end">
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-text-light-primary dark:text-text-dark-primary hover:bg-black/5 dark:hover:bg-white/5">
+<span class="material-symbols-outlined text-2xl">search</span>
+</button>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="flex-1 space-y-3 p-4">
+<!-- Pedal List Item 1 -->
+<a href="pedal-details.html" class="flex cursor-pointer items-center gap-4 rounded-xl bg-card-light p-3 shadow-sm transition-all hover:bg-gray-200/50 dark:bg-card-dark dark:hover:bg-white/10">
+<div class="flex items-center gap-4 flex-1">
+<div class="h-16 w-16 shrink-0 rounded-lg bg-cover bg-center bg-no-repeat" data-alt="Strymon TimeLine pedal, a blue multi-function delay pedal" style='background-image: url("images/pedal-directory-1.jpg");'></div>
+<div class="flex flex-col justify-center overflow-hidden">
+<p class="truncate text-base font-bold text-text-light-primary dark:text-text-dark-primary">Strymon TimeLine</p>
+<p class="truncate text-sm font-medium text-text-light-secondary dark:text-text-dark-secondary">Strymon</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center text-text-light-secondary dark:text-text-dark-secondary">
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+</div>
+</a>
+<!-- Pedal List Item 2 -->
+<a href="pedal-details.html" class="flex cursor-pointer items-center gap-4 rounded-xl bg-card-light p-3 shadow-sm transition-all hover:bg-gray-200/50 dark:bg-card-dark dark:hover:bg-white/10">
+<div class="flex items-center gap-4 flex-1">
+<div class="h-16 w-16 shrink-0 rounded-lg bg-cover bg-center bg-no-repeat" data-alt="Empress Echosystem pedal, a silver delay pedal with many knobs" style='background-image: url("images/pedal-directory-2.jpg");'></div>
+<div class="flex flex-col justify-center overflow-hidden">
+<p class="truncate text-base font-bold text-text-light-primary dark:text-text-dark-primary">Empress Echosystem</p>
+<p class="truncate text-sm font-medium text-text-light-secondary dark:text-text-dark-secondary">Empress Effects</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center text-text-light-secondary dark:text-text-dark-secondary">
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+</div>
+</a>
+<!-- Pedal List Item 3 -->
+<a href="pedal-details.html" class="flex cursor-pointer items-center gap-4 rounded-xl bg-card-light p-3 shadow-sm transition-all hover:bg-gray-200/50 dark:bg-card-dark dark:hover:bg-white/10">
+<div class="flex items-center gap-4 flex-1">
+<div class="h-16 w-16 shrink-0 rounded-lg bg-cover bg-center bg-no-repeat" data-alt="Boss DD-8 Digital Delay pedal, a compact white and blue pedal" style='background-image: url("images/pedal-directory-3.jpg");'></div>
+<div class="flex flex-col justify-center overflow-hidden">
+<p class="truncate text-base font-bold text-text-light-primary dark:text-text-dark-primary">Boss DD-8 Digital Delay</p>
+<p class="truncate text-sm font-medium text-text-light-secondary dark:text-text-dark-secondary">Boss</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center text-text-light-secondary dark:text-text-dark-secondary">
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+</div>
+</a>
+<!-- Pedal List Item 4 -->
+<a href="pedal-details.html" class="flex cursor-pointer items-center gap-4 rounded-xl bg-card-light p-3 shadow-sm transition-all hover:bg-gray-200/50 dark:bg-card-dark dark:hover:bg-white/10">
+<div class="flex items-center gap-4 flex-1">
+<div class="h-16 w-16 shrink-0 rounded-lg bg-cover bg-center bg-no-repeat" data-alt="TC Electronic Flashback 2 pedal, a blue delay and looper pedal" style='background-image: url("images/pedal-directory-4.jpg");'></div>
+<div class="flex flex-col justify-center overflow-hidden">
+<p class="truncate text-base font-bold text-text-light-primary dark:text-text-dark-primary">TC Electronic Flashback 2</p>
+<p class="truncate text-sm font-medium text-text-light-secondary dark:text-text-dark-secondary">TC Electronic</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="flex size-7 items-center justify-center text-text-light-secondary dark:text-text-dark-secondary">
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+</div>
+</a>
+</main>
+</div>
+</body></html>

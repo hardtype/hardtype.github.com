@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pedalboard Directory - Effect Categories</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#135bec",
+              "background-light": "#f6f6f8",
+              "background-dark": "#101622",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-10 flex h-16 items-center justify-between bg-background-light/80 px-4 backdrop-blur-sm dark:bg-background-dark/80">
+<div class="flex size-10 shrink-0 items-center justify-center">
+<a href="index.html">
+<span class="material-symbols-outlined text-3xl text-primary">
+                    equalizer
+                </span>
+</a>
+</div>
+<h1 class="flex-1 text-center text-lg font-bold text-slate-900 dark:text-white">Effect Categories</h1>
+<div class="flex size-10 shrink-0 items-center justify-center">
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full text-slate-600 hover:bg-slate-200 dark:text-slate-300 dark:hover:bg-slate-700">
+<span class="material-symbols-outlined text-2xl">
+                        search
+                    </span>
+</button>
+</div>
+</header>
+<!-- Main Content: Category List -->
+<main class="flex-1 space-y-2 p-4">
+<!-- Category Card: Overdrive & Distortion -->
+<a href="pedal-directory.html" class="flex cursor-pointer items-center gap-4 rounded-lg bg-white p-4 transition-colors hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                        show_chart
+                    </span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-slate-800 dark:text-white">Overdrive &amp; Distortion</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Add grit, saturation, and crunch to your tone.</p>
+</div>
+<div class="shrink-0">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500">
+                        chevron_right
+                    </span>
+</div>
+</a>
+<!-- Category Card: Fuzz -->
+<a href="pedal-directory.html" class="flex cursor-pointer items-center gap-4 rounded-lg bg-white p-4 transition-colors hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                        grain
+                    </span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-slate-800 dark:text-white">Fuzz</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Heavily clipped, harmonically rich saturation.</p>
+</div>
+<div class="shrink-0">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500">
+                        chevron_right
+                    </span>
+</div>
+</a>
+<!-- Category Card: Delay & Echo -->
+<a href="pedal-directory.html" class="flex cursor-pointer items-center gap-4 rounded-lg bg-white p-4 transition-colors hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                        replay
+                    </span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-slate-800 dark:text-white">Delay &amp; Echo</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Create repeating, decaying echoes of your signal.</p>
+</div>
+<div class="shrink-0">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500">
+                        chevron_right
+                    </span>
+</div>
+</a>
+<!-- Category Card: Reverb -->
+<a href="pedal-directory.html" class="flex cursor-pointer items-center gap-4 rounded-lg bg-white p-4 transition-colors hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                        surround_sound
+                    </span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-slate-800 dark:text-white">Reverb</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Simulate the sound of different acoustic spaces.</p>
+</div>
+<div class="shrink-0">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500">
+                        chevron_right
+                    </span>
+</div>
+</a>
+<!-- Category Card: Modulation -->
+<a href="pedal-directory.html" class="flex cursor-pointer items-center gap-4 rounded-lg bg-white p-4 transition-colors hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                        waves
+                    </span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-slate-800 dark:text-white">Modulation</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Chorus, Flanger, Phaser, and other time-based effects.</p>
+</div>
+<div class="shrink-0">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500">
+                        chevron_right
+                    </span>
+</div>
+</a>
+<!-- Category Card: Filter -->
+<a href="pedal-directory.html" class="flex cursor-pointer items-center gap-4 rounded-lg bg-white p-4 transition-colors hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                        filter_alt
+                    </span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-slate-800 dark:text-white">Filter</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Shape your tone with Wah, Envelope filters, and EQs.</p>
+</div>
+<div class="shrink-0">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500">
+                        chevron_right
+                    </span>
+</div>
+</a>
+<!-- Category Card: Compressor -->
+<a href="pedal-directory.html" class="flex cursor-pointer items-center gap-4 rounded-lg bg-white p-4 transition-colors hover:bg-slate-50 dark:bg-slate-800/50 dark:hover:bg-slate-800">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">
+                        compress
+                    </span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-slate-800 dark:text-white">Compressor</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Even out your signal's dynamics and add sustain.</p>
+</div>
+<div class="shrink-0">
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500">
+                        chevron_right
+                    </span>
+</div>
+</a>
+</main>
+</div>
+</body></html>
