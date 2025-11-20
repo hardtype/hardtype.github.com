@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Login - Pedalboard Directory</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#135bec",
+            "background-light": "#f6f6f8",
+            "background-dark": "#101622",
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex min-h-screen w-full flex-col items-center justify-center bg-background-light dark:bg-background-dark p-4">
+<div class="w-full max-w-md">
+<!-- Logo/Header -->
+<div class="mb-8 flex justify-center">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary">
+<span class="material-symbols-outlined text-white" style="font-size: 32px; font-variation-settings: 'FILL' 1;">
+            equalizer
+          </span>
+</div>
+</div>
+<!-- Headline -->
+<div class="text-center">
+<h1 class="font-display text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Log In to Your Pedalboard</h1>
+</div>
+<!-- Form -->
+<div class="mt-8 space-y-6">
+<!-- Email/Username TextField -->
+<div class="flex flex-col">
+<label class="font-display text-sm font-medium text-slate-700 dark:text-slate-300 pb-2" for="email">Email or Username</label>
+<input class="form-input w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border border-slate-300 bg-white p-3.5 text-base font-normal leading-normal text-slate-900 placeholder:text-slate-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:placeholder:text-slate-500" id="email" placeholder="Enter your email or username" type="email"/>
+</div>
+<!-- Password TextField -->
+<div class="flex flex-col">
+<label class="font-display text-sm font-medium text-slate-700 dark:text-slate-300 pb-2" for="password">Password</label>
+<div class="relative flex w-full items-center">
+<input class="form-input w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border border-slate-300 bg-white p-3.5 pr-12 text-base font-normal leading-normal text-slate-900 placeholder:text-slate-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:placeholder:text-slate-500" id="password" placeholder="Enter your password" type="password"/>
+<button aria-label="Toggle password visibility" class="absolute right-0 flex h-full w-12 items-center justify-center text-slate-400 dark:text-slate-500">
+<span class="material-symbols-outlined" data-icon="Eye" data-size="24px" data-weight="regular">visibility</span>
+</button>
+</div>
+</div>
+<!-- Forgot Password Link -->
+<div class="flex justify-end">
+<a class="font-display text-sm font-medium text-primary hover:underline" href="#">Forgot Password?</a>
+</div>
+<!-- Primary Login Button -->
+<div class="flex">
+<a href="index.html" class="flex h-12 w-full min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-5 text-base font-bold leading-normal tracking-wide text-white transition-colors hover:bg-primary/90">
+<span class="truncate">Log In</span>
+</a>
+</div>
+<!-- Divider -->
+<div class="flex items-center gap-4">
+<div class="h-px flex-1 bg-slate-200 dark:bg-slate-800"></div>
+<span class="text-sm text-slate-500 dark:text-slate-400">OR</span>
+<div class="h-px flex-1 bg-slate-200 dark:bg-slate-800"></div>
+</div>
+<!-- Social Login Button -->
+<div class="flex">
+<button class="flex h-12 w-full min-w-[84px] cursor-pointer items-center justify-center gap-3 overflow-hidden rounded-lg border border-slate-300 bg-white px-5 text-base font-medium leading-normal text-slate-800 transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800">
+<svg class="h-5 w-5" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_17_80)"><path d="M47.532 24.5528C47.532 22.9214 47.3997 21.2811 47.1175 19.6761H24.2695V28.618H37.3367C36.9329 31.3853 35.5367 33.856 33.4563 35.3239V41.3858H41.5165C45.3991 37.8999 47.532 31.8545 47.532 24.5528Z" fill="#4285F4"></path><path d="M24.2695 48.0008C30.4995 48.0008 35.7275 45.9345 39.4623 42.4485L33.4563 35.3239C31.286 36.7831 28.089 37.86 24.2695 37.86C18.293 37.86 13.0457 34.0045 11.2063 28.32H2.92383V34.5527C6.73917 42.3755 14.881 48.0008 24.2695 48.0008Z" fill="#34A853"></path><path d="M11.2063 28.3199C10.741 26.901 10.4533 25.3999 10.4533 23.8349C10.4533 22.2705 10.741 20.7688 11.2063 19.3499V13.1172H2.92383C1.08375 16.7325 0 20.1722 0 23.8349C0 27.4977 1.08375 30.9373 2.92383 34.5527L11.2063 28.3199Z" fill="#FBBC05"></path><path d="M24.2695 9.80851C27.447 9.80851 30.7303 10.8934 33.2203 13.251L39.6368 6.84431C35.7175 3.25455 30.4995 0.666992 24.2695 0.666992C14.881 0.666992 6.73917 6.29233 2.92383 14.1151L11.2063 20.3478C13.0457 14.6634 18.293 9.80851 24.2695 9.80851Z" fill="#EA4335"></path></g><defs><clippath id="clip0_17_80"><rect fill="white" height="48" transform="translate(0 0.666992)" width="48"></rect></clippath></defs></svg>
+<span class="truncate">Continue with Google</span>
+</button>
+</div>
+<!-- Sign Up Link -->
+<div class="pt-2 text-center">
+<p class="font-display text-sm text-slate-600 dark:text-slate-400">
+            Don't have an account? <a class="font-medium text-primary hover:underline" href="#">Sign Up</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</body></html>
